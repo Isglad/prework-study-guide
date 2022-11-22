@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -102,12 +103,53 @@
         </ul>
       </section>
 
+
       <section class="card" id="css-section">
         <h2>CSS</h2>
         <ul>
-          <li>Enter your css notes here!</li>
+          <li>CSS (Cascading Style Sheet), a programming language that determines the style of a webpage in order to make a website visually appealing.</li>
+          <li>There are 3 ways to style a webpage using CSS:</li>
+          <ul>
+            <li>Inline CSS which is used when a developer wants to style an element directly in the HTML file.</li>
+            <li>Internal style sheet, contains CSS rules for the webpage in the head section of the HTML file.</li>
+            <li>External CSS style sheet, is a preferred method in most cases because it allows developers to keep all their CSS rules in a separate file, which makes design changes easier.</li>
+          </ul>
+          <li>A CSS rule is made of selectors and declaration.</li>
+          <ul>
+            <li>Selector defines the element (eg: header, footer or h1) or attributes (eg: class) to which the rules or declarations will apply to.</li>
+            <ul>
+              <li>When adding a rule to an attribute selector like a class, preceed it with a period (.) in the CSS file.</li>
+            </ul>
+            <li>Declarations contain 2 important components: CSS property (eg: color) and the value of the property (eg: blue)</li>
+            <li>To apply a rule to multiple selectors at once, you can separate them by a coma.</li>
+          </ul>
+          <li>Some of the common properties are:</li>
+          <ul>
+            <li>A margin, which indicates how much space we want around the outside of an element.</li>
+            <li>A padding, which indicates how much we want around the content inside an element.</li>
+            <li>Display.</li>
+            <li>Height.</li>
+            <li>width.</li>
+            <li>Border.</li>
+            <li>Text-align.</li>
+            <li>Font-size.</li>
+            <li>Box-shadow.</li>
+            <li>Color.</li>
+            <li>Etc...</li>
+          </ul>
+          <li>When using an external css style sheet, we link the the file using a link element placed in the HTML's head element.</li>
+          <ul>
+            <li>This link element has 2 attributes: rel and href.</li>
+            <ul>
+              <li>The rel attribute specifies the relationship between the current document and the linked document resource.</li>
+              <li>The href attribute specifies the url of the external source.</li>
+            </ul>
+            <li>The link element is always placed in HTML's head element and it comes after meta element and before title element.</li>
+            
+          </ul>
         </ul>
       </section>
+
 
       <section class="card" id="git-section">
         <h2>Git</h2>
@@ -121,6 +163,7 @@
         </ul>
       </section>
 
+
       <section class="card" id="javascript-section">
         <h2>JavaScript</h2>
         <ul>
@@ -130,8 +173,10 @@
       </section>
     </main>
 
+
     <footer>
       <p>I can code!</p>
     </footer>
+
   </body>
 </html>
